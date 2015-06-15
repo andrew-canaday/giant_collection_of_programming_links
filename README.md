@@ -107,7 +107,6 @@ C++
 ---
  - [The C++ Faq](http://www.parashift.com/c++-faq/) - Marshall Cline's invaluable resource for C++ programmers
  - [The C++ Super-Faq](https://isocpp.org/faq) - A wiki combination of Marshall Cline’s C++ FAQs and Bjarne Stroustrup’s C++ FAQ
- - [
 
 IO Libraries
 ------------
