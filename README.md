@@ -103,10 +103,27 @@ Optimization
  - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
  - [Fast to_lower for C](https://github.com/andrew-canaday/fast_tolower/)
 
-C++
----
+C/C++
+-----
+ - [A Guide to Undefined Behavior in C and C++: Part 1](http://blog.regehr.org/archives/213)
+ - [A Guide to Undefined Behavior in C and C++: Part 2](http://blog.regehr.org/archives/226)
+ - [A Guide to Undefined Behavior in C and C++: Part 3](http://blog.regehr.org/archives/232)
+ - [What Every C Programmer Should Know about Undefined Behavior](http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html)
  - [The C++ Faq](http://www.parashift.com/c++-faq/) - Marshall Cline's invaluable resource for C++ programmers
  - [The C++ Super-Faq](https://isocpp.org/faq) - A wiki combination of Marshall Cline’s C++ FAQs and Bjarne Stroustrup’s C++ FAQ
+ - [How to Handle OOM in C](http://eli.thegreenplace.net/2009/10/30/handling-out-of-memory-conditions-in-c)
+
+### OOP-like Modelling in C
+ - [SO: How Can Inheritance Be Modelled in C](http://stackoverflow.com/questions/1237266/how-can-inheritance-be-modelled-using-c)
+ - [SO: What Techniques/Strategies do People Use for Building Objects in C](http://stackoverflow.com/questions/1225844/what-techniques-strategies-do-people-use-for-building-objects-in-c-not-c)
+ - [Object-oriented Programming in C](http://modelingwithdata.org/arch/00000035.htm)
+ - [Open Reusable Object Models](http://www.vpri.org/pdf/tr2006003a_objmod.pdf)
+ - [Object Oriented Programming in C - Laurent Deniau](http://ldeniau.home.cern.ch/ldeniau/html/oopc/oopc.html)
+
+Assembly Language Programming
+-----------------------------
+ - [Linux ASM Quickstart](http://database.sarang.net/study/linux/asm/linux-asm.txt)
+ - [GCC Inline-assembly HOWTO](http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)
 
 IO Libraries
 ------------
@@ -120,22 +137,16 @@ Kernel
 
 Misc
 ----
+### Websites/Blogs
  - [The good-looking textured light-sourced bouncy fun smart and stretchy page](http://freespace.virgin.net/hugo.elias/) - Why would you not click this?
  - [libecb](http://software.schmorp.de/pkg/libecb.html) - This project delivers you many gcc builtins, attributes and a number of generally useful low-level functions, such as popcount, expect, prefetch, noinline, assume, unreachable and so on
- - [Linux ASM Quickstart](http://database.sarang.net/study/linux/asm/linux-asm.txt)
- - [GCC Inline-assembly HOWTO](http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)
  - [Eli Bendersky's Website](http://eli.thegreenplace.net/)
  - [Doug Lea's Homepage](http://gee.cs.oswego.edu/)
+ - [John Regehr's Blog](http://blog.regehr.org/)
 
-### OOP-like Modelling in C
- - [SO: How Can Inheritance Be Modelled in C](http://stackoverflow.com/questions/1237266/how-can-inheritance-be-modelled-using-c)
- - [SO: What Techniques/Strategies do People Use for Building Objects in C](http://stackoverflow.com/questions/1225844/what-techniques-strategies-do-people-use-for-building-objects-in-c-not-c)
- - [Object-oriented Programming in C](http://modelingwithdata.org/arch/00000035.htm)
- - [Open Reusable Object Models](http://www.vpri.org/pdf/tr2006003a_objmod.pdf)
- - [Object Oriented Programming in C - Laurent Deniau](http://ldeniau.home.cern.ch/ldeniau/html/oopc/oopc.html)
-
-### Error Handling 
-- [How to Handle OOM in C](http://eli.thegreenplace.net/2009/10/30/handling-out-of-memory-conditions-in-c)
+### Amazing tricks you will probably never need
+ - [Duff's Device](http://www.lysator.liu.se/c/duffs-device.html)
+ - [Fast Inverse Square Root](http://h14s.p5r.org/2012/09/0x5f3759df.html)
 
 Standards
 ---------
