@@ -33,6 +33,7 @@ Network Programming
  - [Topics in High-Performance Messaging](https://www.informatica.com/downloads/1568_high_perf_messaging_wp/Topics-in-High-Performance-Messaging.htm) - Brief summaries on a number of important TCP/UDP network concepts
  - [High-Performance Network Programming Part 1](http://www.ibm.com/developerworks/aix/library/au-highperform1/) - Basic performance-related network programming techniques
  - [High-Performance Network Programming Part 2](http://www.ibm.com/developerworks/aix/library/au-highperform2/) - More basic performance-related network programming techniques
+ - [The SO_REUSEPORT Socket Option](https://lwn.net/Articles/542629/) - How to allow multiple process/threads to listen on a common port without sharing a common socket
 
 ### TCP Flow Control:
  - [TCP_NODELAY and Small Buffer Writes](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.2/html/Realtime_Tuning_Guide/sect-Realtime_Tuning_Guide-Application_Tuning_and_Deployment-TCP_NODELAY_and_Small_Buffer_Writes.html) - Information on using TCP_NODELAY to suppress automatic TCP coalescing (e.g. Nagle's algorithm) by the kernel
@@ -143,6 +144,8 @@ Misc
  - [Eli Bendersky's Website](http://eli.thegreenplace.net/)
  - [Doug Lea's Homepage](http://gee.cs.oswego.edu/)
  - [John Regehr's Blog](http://blog.regehr.org/)
+ - [Christian Plesner Hansen](http://h14s.p5r.org/)
+ - [The "Double Check Locking is Broken" Declaration](http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html)
 
 ### Amazing tricks you will probably never need
  - [Duff's Device](http://www.lysator.liu.se/c/duffs-device.html)
