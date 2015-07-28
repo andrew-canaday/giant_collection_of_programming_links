@@ -63,6 +63,23 @@ Network Programming
 ### Scalability
  - [Scalability Comparison of Various *nix Systems](http://bulk.fefe.de/scalability/)
 
+I/O
+---
+
+### General I/O
+ - [libev](http://software.schmorp.de/pkg/libev.html) - High performance event-loop library
+ - [libeio](http://software.schmorp.de/pkg/libeio.html) - Libeio is a full-featured asynchronous I/O library for C, modelled in similar style and spirit as libev
+
+### Networking
+ - [nanomsg](http://nanomsg.org/) - "a socket library that provides several common communication patterns. It aims to make the networking layer fast, scalable, and easy to use"
+
+Optimization
+------------
+ - [Optimization of Computer Programs in C](http://leto.net/docs/C-optimization.php)
+ - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
+ - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
+ - [Fast to_lower for C](https://github.com/andrew-canaday/fast_tolower/)
+
 Concurrency
 -----------
 ### Patterns
@@ -97,13 +114,6 @@ Concurrency
 ### Misc
  - [A Gigantic List of Alternate Concurrency Libraries for C](https://github.com/baruch/libwire/wiki/Other-coroutine-libraries)
 
-Optimization
-------------
- - [Optimization of Computer Programs in C](http://leto.net/docs/C-optimization.php)
- - [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
- - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
- - [Fast to_lower for C](https://github.com/andrew-canaday/fast_tolower/)
-
 C/C++
 -----
  - [A Guide to Undefined Behavior in C and C++: Part 1](http://blog.regehr.org/archives/213)
@@ -125,11 +135,6 @@ Assembly Language Programming
 -----------------------------
  - [Linux ASM Quickstart](http://database.sarang.net/study/linux/asm/linux-asm.txt)
  - [GCC Inline-assembly HOWTO](http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html)
-
-IO Libraries
-------------
- - [libev](http://software.schmorp.de/pkg/libev.html) - High performance event-loop library
- - [libeio](http://software.schmorp.de/pkg/libeio.html) - Libeio is a full-featured asynchronous I/O library for C, modelled in similar style and spirit as libev
 
 Kernel
 ------
