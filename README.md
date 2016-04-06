@@ -34,6 +34,7 @@ Network Programming
  - [High-Performance Network Programming Part 1](http://www.ibm.com/developerworks/aix/library/au-highperform1/) - Basic performance-related network programming techniques
  - [High-Performance Network Programming Part 2](http://www.ibm.com/developerworks/aix/library/au-highperform2/) - More basic performance-related network programming techniques
  - [The SO_REUSEPORT Socket Option](https://lwn.net/Articles/542629/) - How to allow multiple process/threads to listen on a common port without sharing a common socket
+ - [Coping with the TCP TIME-WAIT state on busy Linux servers](http://vincent.bernat.im/en/blog/2014-tcp-time-wait-state-linux.html) - Comprehensive overview of TCP TIME_WAIT, how to know if it's an actual problem, and strategies for dealing with it appropriately when it is.
 
 ### TCP Flow Control:
  - [TCP_NODELAY and Small Buffer Writes](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.2/html/Realtime_Tuning_Guide/sect-Realtime_Tuning_Guide-Application_Tuning_and_Deployment-TCP_NODELAY_and_Small_Buffer_Writes.html) - Information on using TCP_NODELAY to suppress automatic TCP coalescing (e.g. Nagle's algorithm) by the kernel
